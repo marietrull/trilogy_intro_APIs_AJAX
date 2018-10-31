@@ -31,3 +31,56 @@ console.log("Step Three -  Log the State of the Address: " + customer.address.st
 console.log("Step Four - Log the Phone Number: " + customer.phoneNumber[0].number);
 // Step 5: Log the Fax Number below using console.log
 console.log("Steph Five - Log the Fax Number: " + customer.phoneNumber[1].number);
+
+//-------------AJAX CALLS---------//
+
+console.log("-----------AJAX CALLS-----------")
+
+    $.ajax({
+      url: "https://www.omdbapi.com/?t=romancing+the+stone&y=&plot=short&apikey=trilogy",
+      method: "GET"
+    }).then(function(response) {
+      console.log(response);
+    });
+
+    $.ajax({
+      url: "https://www.omdbapi.com/?t=the+revenant&y=&plot=short&apikey=trilogy",
+      method: "GET"
+    }).then(function(response) {
+      console.log(response);
+    });
+
+    $.ajax({
+      url: "https://www.omdbapi.com/?t=god+father&y=&plot=short&apikey=trilogy",
+      method: "GET"
+    }).then(function(response) {
+      console.log(response);
+    });
+
+    $.ajax({
+      url: "https://www.omdbapi.com/?t=space+jam&y=&plot=short&apikey=trilogy",
+      method: "GET"
+    }).then(function(response) {
+      console.log(response);
+    });
+
+    $.ajax({
+      url: "https://www.omdbapi.com/?t=boiler+room&y=&plot=short&apikey=trilogy",
+      method: "GET"
+    }).then(function(response) {
+      console.log(response);
+    });
+
+    $.ajax({
+      url: "https://www.omdbapi.com/?t=inception&y=&plot=short&apikey=trilogy",
+      method: "GET"
+    }).then(function(response) {
+      console.log(response);
+    });
+
+    $.ajax({
+      url: "https://www.omdbapi.com/?t=the+dark+night&y=&plot=short&apikey=trilogy",
+      method: "GET"
+    }).then(function(response) {
+      console.log(response);
+    });
