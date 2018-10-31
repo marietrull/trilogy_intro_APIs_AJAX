@@ -3,9 +3,33 @@
 <head>
 	<title>Intro to APIs and AJAX</title>
 	<link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
 </head>
 <body>
 
+	<div class="container">
+    <h2> Basic Table </h2>
+    <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <!-- The scope attribute specifies that this is a header for a column -->
+          <th scope="col">Movie Name</th>
+          <th scope="col">Year</th>
+          <th scope="col">Actors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        	<!-- td is a standard cell that is left-aligned by default-->
+			<td>Interstellar</td>
+			<td>2014</td>
+			<td>Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow</td>
+        </tr>
+        <!-- additional tr's will be added here -->
+      </tbody>
+    </table>
+  </div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
